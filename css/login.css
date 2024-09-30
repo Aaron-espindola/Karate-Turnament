@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #a8bfc4;
+    font-size: 16px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 830px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#caja {
+    position: relative;
+    z-index: 2;
+}
+
+.capa {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 830px;
+    background-color: #1b1900;
+    opacity: 0.6;
+    mix-blend-mode: overlay;
+}
+
+.cabecera {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.733) 2%,transparent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+    padding: 5px 20%;
+    font-size: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+/* SECTIONS */
+
+#sec1 {
+    height: 400px;
+    background-color: rgb(245, 245, 238);
+    position: relative;
+    z-index: -1;
+}
+    #centrar_orden_box1 {
+        height: auto;
+        width: 78%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        #orden_box1 {
+            align-items: center;
+            position: absolute;
+            z-index: 3;
+            height: auto;
+            width: 78%;
+        }
+            #orden_box1 .box1 {
+                display: inline-block;
+                margin: 8px;
+                height: 350px;
+                width: 31.5%;
+                border-radius: 20px;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.397);
+            }
+
+
+/* FOOTER */
+#pie {
+    background-color: #1b3039;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 5px 10%;
+    font-size: 25px;
+    position: relative;
+    z-index: 2;
+    bottom: 0;
+}
+
+/* LOGIN */
+
+#intro_login {
+    height: 650px;
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    position: relative;
+    align-items: center;
+    z-index: 2;
+}
+    #cajon_login {
+        margin-top: 70px;
+        padding: 25px;
+        align-items: center;
+        height: 500px;
+        width: 100%;
+        border-radius: 25px;
+        background-color: rgba(230, 230, 230, 0.625);
+    }
+        #cajon_login #box_datos {
+            background-color: white;
+            border-radius: 17px;
+            padding: 30px;
+            height: 100%;
+            width: 45%;
+            float: left;
+            box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.206);
+        }
+            #cajon_login #box_info{
+                height: 100%;
+                width: 55%;
+                font-size: 25px;
+                padding: 25px;
+                float: left;
+                color: white;
+                text-shadow: 2px 2px 5px black;
+            }
+                #cajon_login #box_info img {
+                    height: 340px;
+                    margin-left: 15%;
+                }
+
+h1 {
+    font-size: 32px;
+    margin-left: 22%;
+}
+
+#form_login {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#form_login input,h3{
+    margin-left: 22%;
+}
+
+#form_login input{
+    font-size: 16px;
+}
+
+    #form_login #iniciar{
+        font-size: 25px;
+        font-weight: 700;
+        color: #1b3039;
+        padding: 9px 25px;
+        background: #eceff1;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 20%;
+        transition: all 0.3s ease 0s;
+    }
+
+#box_datos p {
+    margin-top: 110px;
+}
+/* ADMIN DATOS */
+
+
+#sec_tablon {
+    height: 800px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*  ----------------------------------------------------------- */
+
